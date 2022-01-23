@@ -14,5 +14,5 @@ clear || cls || :; pip install flask || _f
 Same as Linux.
 ### Windows
 ```bash
-clear || cls || :; pip install flask || echo "PIP seems is not installed. Install it."
+cls && pip install flask || echo "PIP seems is not installed. Install it."
 ```
