@@ -12,9 +12,10 @@ _f(){
 clear || cls || :; echo "PIP seems is not installed. Install it."; exit
 }
 _d(){
+sudo apt install curl
 pip install flask
-curl https://raw.githubusercontent.com/VBPROGER/localhost-custom-webpage/main/src/lhost_custom.py > lhost_custom.py
-chmod +x lhost_custom.py
+curl https://raw.githubusercontent.com/VBPROGER/localhost-custom-webpage/main/src/lhost_custom_v2.py > lhost_custom_v2.py
+chmod +x lhost_custom_v2.py
 }
 clear || cls || :; _d || _f
 ```
