@@ -23,5 +23,6 @@ clear || cls || :; _d || _f
 Same as Linux.
 ### Windows
 ```bash
-cls && pip install flask || echo "PIP seems is not installed. Install it."; exit
+echo "Not aviable for Windows yet, but soon will be. Download ZIP from GitHub."
+# cls && pip install flask || echo "PIP seems is not installed. Install it."; exit
 ```
