@@ -1,0 +1,4 @@
+# * web_conf.yaml *
+index: index.html
+ip: 192.168.1.1
+port: 80 # Root privileges needed
