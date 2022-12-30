@@ -30,19 +30,31 @@ echo "Not aviable for Windows yet, but soon will be. Download ZIP from GitHub."
 You need to setup your server.
 First, create folder `templates` and file `templates/index.html`.
 You can add anything there. Now, add file called `web_conf.yaml` with the following contents:
+```yaml
+# * web_conf.yaml *
+# These contents can be changed!
+index: index.html # Do not use `templates/*.html`, use just `*.html`.
+ip: 127.0.0.1 # You can also set as `localhost`, or any other IP.
+port: 1234 # Port to host on
+```
 This will be config for your web server. Now, start the server:
 ### Start in Linux
 ```sh
 env python3 localhost_hoster.py
 ```
+### Start in Mac OS
+```sh
+python3 localhost_hoster.py
+```
 ### Start in Windows
 ```powershell
 python3.exe localhost_hoster.py
 ```
-<br>
 The server is now running. Congratulations!
 ## Stop
 ### Stopping server in Linux
 To stop your server, press Ctrl+D.
+### Stopping server in Mac OS
+Same as Linux.
 ### Stopping server in Windows
 To stop your server, press Ctrl+Z.
