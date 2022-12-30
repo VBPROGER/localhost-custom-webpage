@@ -1,0 +1,4 @@
+# * web_conf.yaml *
+index: main_page.html
+ip: localhost
+port: 7789
